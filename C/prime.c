@@ -7,7 +7,7 @@ int isPrime(int n) {
         return 0; // Not prime
     }
     
-    // Check from 2 to square root of n
+    // Check from 2 to square root of n.
     for (int i = 2; i * i <= n; i++) {
         if (n % i == 0) {
             return 0; // Not prime
