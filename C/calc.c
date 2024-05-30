@@ -12,7 +12,7 @@ int main() {
     printf("Enter two numbers: ");
     scanf("%lf %lf", &num1, &num2);
 
-    // Perform operation based on the operator
+    // Perform operation based on the operators
     switch (operator) {
         case '+':
             printf("%.2lf + %.2lf = %.2lf\n", num1, num2, num1 + num2);
